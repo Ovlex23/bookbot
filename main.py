@@ -1,5 +1,5 @@
 def main():
-    book = "books/frankenstein.txt"
+    book = "books/book.txt"
     book_text = get_book_text(book)
     total_words = count_words(book_text)
     print(f"Total words in the book: {total_words} words")
